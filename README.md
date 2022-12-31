@@ -1,9 +1,9 @@
 <h1>Project</h1>
-Built a Twitter clone for the final Javascript assignment on The Odin Project: https://www.theodinproject.com/lessons/node-path-javascript-javascript-final-project
+Build a Twitter clone for the final Javascript assignment on The Odin Project: https://www.theodinproject.com/lessons/node-path-javascript-javascript-final-project
 
-The assignment was to replicate your favourite social media website.
+Twitter clone built from scratch with React and Firebase (no follow along tutorials etc, just good old fashioned reading dev docs).
 
-Like all Odin Project assignments, I built this Twitter clone from scratch with React and Firebase (no follow along tutorials etc, just good old fashioned reading dev docs).
+Check it out here 👉 https://twitter-clone-v1-three.vercel.app/auth
 
 <h2>Features</h2>
 
