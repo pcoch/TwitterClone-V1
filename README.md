@@ -5,7 +5,8 @@ The assignment was to replicate your favourite social media website.
 
 Like all Odin Project assignments, I built this Twitter clone from scratch with React and Firebase (no follow along tutorials etc, just good old fashioned reading dev docs).
 
-<h2>Features<h2>
+<h2>Features</h2>
+
 Signup/Login with auth error messages
 Tweet with text, image, and emojis
 Delete tweets
@@ -15,9 +16,9 @@ Edit profile page (avatar, banner, name, etc)
 View profile
 Add bookmarks
 
-<h2>Learnings<h2>
+<h2>Learnings</h2>
 
-<h4>Scope first<h4>
+<h4>Scope first</h4>
 Twitter is an amazing application with a lot of complex features. I thought I could build most of the functionality (lol), but quickly realised I'd need to focus on the main functionality and skip other stuff if I wanted to build this in a reasonable time.
 
 For example, adding in an emoji selector to the tweet box took far longer then expected. I thought the browser would have an API. Non. Took me a few hours to get a package working, split the string, find the caret, etc. Great example of scope being way larger then first anticipated.
