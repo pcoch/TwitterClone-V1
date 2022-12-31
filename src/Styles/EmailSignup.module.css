@@ -1,0 +1,112 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 280px;
+    height: 38px;
+    padding-left: 12px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+input::placeholder {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 38px;
+    border-radius: 50px;
+    background-color: #1c9bf0;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-rendering: optimizeLegibility;
+}
+
+.button:hover {
+    text-rendering: optimizeLegibility;
+    filter: brightness(120%);
+    transition: 0.2s ease-in-out;
+}
+
+.emailSignupBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 38px;
+    border-radius: 50px;
+    background-color: #1c9bf0;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 12px;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #676767;
+    font-size: 11px;
+    font-weight: 400;
+    border-radius: 50px;
+    bottom: 60px;
+    transition: 0.2s ease-in-out;
+    position: absolute;
+}
+
+.hideFile {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+  }
+
+  .fileLabel {
+    display: block;
+    position: relative;
+    width: 280px;
+    height: 38px;
+    border-radius: 50px;
+    color: black;
+    background-color: white;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    transition: 0.2s ease-in-out;
+  }
+
+  .fileLabel:hover {
+    filter: brightness(90%);
+    transition: 0.2s ease-in-out;
+  }
