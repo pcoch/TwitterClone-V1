@@ -49,7 +49,7 @@ An example where I did this well was the Tweet component or the ChangeImgButton.
 I should build the component fully, before moving on as well. I made the mistake of half building a component. For example, not making it fully responsive. It's then time consuming to come back and look at older code.
 
 <h4>File Structure</h4>
-It would have been worthwhile reading this first: https://reactjs.org/docs/faq-structure.html
+It would have been worthwhile reading this first: https://reactjs.org/docs/faq-structure.html and https://www.joshwcomeau.com/react/file-structure/
 I didn't start off structuring my files all that well, and it took me more time to restructure them later
 I like the model of Grouping by features or routes rather then by file type.
 
